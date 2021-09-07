@@ -306,48 +306,15 @@ img{
 /* ===== CONTACT =====*/
 .contact__container{
     row-gap: 2rem;
-    
 }
-
-.contact__subtitle1{
+.contact__subtitle{
     font-size: var(--normal-font-size);
     color: var(--first-color);
-    
-    margin-left: 490px;
 }
-
-.contact__subtitle2{
-    font-size: var(--normal-font-size);
-    color: var(--first-color);
-    
-    margin-left: 470px;
-}
-
-.contact__subtitle3{
-    font-size: var(--normal-font-size);
-    color: var(--first-color);
-    
-    margin-left: 480px;
-}
-.contact__text1{
+.contact__text{
     display: inline-block;
     margin-bottom: var(--mb-2);
-    margin-left: 440px;
 }
-
-.contact__text2{
-    display: inline-block;
-    margin-bottom: var(--mb-2);
-    margin-left: 465px;
-}
-
-.contact__text3{
-    display: inline-block;
-    margin-bottom: var(--mb-2);
-    margin-left: 450px;
-}
-
-
 .contact__inputs{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
