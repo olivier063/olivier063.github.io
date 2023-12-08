@@ -190,13 +190,30 @@ img{
     height: 300px;
     
 }
-.home__title{
+
+.home__title {
+    align-self: flex-start;
+    margin-top: 15%; /* Utilisation d'une marge relative à la hauteur de l'écran */
+    font-size: 8vw; /* Utilisation d'une taille de police relative à la largeur de l'écran */
+    color: var(--white-color);
+    line-height: 1.2; /* Ajustement de l'espacement entre les lignes si nécessaire */
+}
+
+/* Média query pour les écrans de petite taille */
+/* @media only screen and (max-width: 768px) {
+    .home__title {
+        font-size: 8vw; 
+    }
+} */
+
+
+/* .home__title{
     align-self: flex-start;
     margin-top: 150px;
     font-size: 100px;
     color: var(--white-color);
     line-height: .8;
-}
+} */
 .home__title span{
     text-shadow: 0 20px 25px rgba(0,0,0,.5);
 }
