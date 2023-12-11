@@ -182,19 +182,19 @@ img{
     position: relative;
     background-color: var(--first-color);
     overflow: hidden;
-    height: 300px;
+    height: 400px;
 }
 .home__container{
     /* height: calc(100vh - var(--header-height)); */
-    row-gap: 5rem;
+    row-gap: 2rem;
 }
 
 .home__title {
     align-self: flex-start;
-    margin-top: 15%; /* Utilisation d'une marge relative à la hauteur de l'écran */
+    margin-top: 10%; /* Utilisation d'une marge relative à la hauteur de l'écran */
     font-size: 8vw; /* Utilisation d'une taille de police relative à la largeur de l'écran */
     color: var(--white-color);
-    line-height: 1.2; /* Ajustement de l'espacement entre les lignes si nécessaire */
+    line-height: 1.4; /* Ajustement de l'espacement entre les lignes si nécessaire */
 }
 
 /* Média query pour les écrans de petite taille */
@@ -224,7 +224,7 @@ img{
     transform: rotate(-180deg);
     color: var(--white-color);
 }
-/* .home__img{
+.home__img{
     position: absolute;
     margin-right: 50px;
     top: 200px;
@@ -232,13 +232,13 @@ img{
     border-radius: 20px;
     max-width: 300px;
     height: auto;
-} */
+}
 
 /* ===== ABOUT =====*/
 .about__container{
     justify-items: center;
     text-align: center;
-    height: 700px;
+    height: 550px;
 }
 /* .about__img{
     
@@ -255,6 +255,11 @@ img{
     margin-top: 5%;
 }
 .about__text{
+
+
+    /* margin-top: -15%;  */
+
+
     margin-bottom: var(--mb-4);
 }
 .about__profession{
@@ -399,6 +404,12 @@ img{
 
 /* ===== MEDIA QUERIES =====*/
 /* For small devices */
+@media screen and (max-width: 768px) {
+    .home {
+        height: 230px; /* Ajustez cette valeur en fonction de vos besoins pour les petits écrans */
+    }
+}
+
 @media screen and (max-width: 320px) {
   .home__img {
     width: 230px;
