@@ -190,6 +190,9 @@ img{
     /* height: calc(100vh - var(--header-height)); */
     row-gap: 2rem;
 }
+.home__title:hover{
+    color: rgb(3, 223, 183);
+}
 
 .home__title {
     align-self: flex-start;
@@ -293,7 +296,7 @@ img{
     border-radius: .25rem;
 }
 .skills__name:hover{
-    background-color: var(--first-color);
+    background-color: rgb(3, 223, 183);
     color: var(--white-color);
 }
 .skills__img img{
