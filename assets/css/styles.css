@@ -238,7 +238,7 @@ img{
 .about__container{
     justify-items: center;
     text-align: center;
-    height: 550px;
+    height: 650px;
 }
 /* .about__img{
     
@@ -255,11 +255,7 @@ img{
     margin-top: 5%;
 }
 .about__text{
-
-
     /* margin-top: -15%;  */
-
-
     margin-bottom: var(--mb-4);
 }
 .about__profession{
