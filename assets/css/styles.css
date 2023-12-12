@@ -275,7 +275,7 @@ img{
     /* margin: 0 var(--mb-1); */
 }
 .about__social-icon:hover{
-    color: var(--first-color);
+    color: rgb(3, 223, 183);
 }
 
 /* Ajoutez ce code dans votre section style ou dans votre fichier CSS externe */
@@ -299,6 +299,7 @@ img{
 /* ===== SKILLS =====*/
 .skills__container{
     row-gap: 2rem;
+    
 }
 .skills__subtitle{
     color: var(--first-color);
