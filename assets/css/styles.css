@@ -150,9 +150,12 @@ img{
 .nav__link{
     position: relative;
     color: var(--dark-color);
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s;
 }
 .nav__link:hover{
     color: var(--first-color);
+    border-bottom-color: white; 
 }
 .nav__logo{
     color: var(--white-color);
