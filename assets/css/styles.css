@@ -144,24 +144,23 @@ img{
         backdrop-filter: blur(10px);
     }
 }
+
 .nav__item{
     margin-bottom: var(--mb-4);
 }
+
 .nav__link{
     position: relative;
     color: white;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom-color 0.3s;
 }
 .nav__link:hover{
-    /* color: var(--first-color); */
-    border-bottom-color: white; 
+    color: rgb(3, 223, 183);
 }
 .nav__logo{
     color: var(--white-color);
 }
 .nav__toggle{
-    color: var(--white-color);
+    color: rgb(3, 223, 183);
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -325,6 +324,8 @@ img{
 .skills__img img{
     border-radius: .5rem;
 }
+
+
 
 /* ===== PORTFOLIO =====*/
 .portfolio{

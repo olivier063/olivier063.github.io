@@ -25,19 +25,40 @@
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="#home" class="nav__link active">Home</a>
+            <!-- <a href="#home" class="nav__link active">Home</a> -->
+            <a href="#home" class="nav__link active" 
+            style="color: white; 
+            transition: color 0.3s;" 
+            onmouseover="this.style.color='rgb(3, 223, 183)'" 
+            onmouseout="this.style.color='white'">Home</a>
           </li>
           <li class="nav__item">
-            <a href="#about" class="nav__link">À propos</a>
+            <a href="#about" class="nav__link"
+            style="color: white; 
+            transition: color 0.3s;" 
+            onmouseover="this.style.color='rgb(3, 223, 183)'" 
+            onmouseout="this.style.color='white'">À propos</a>
           </li>
           <li class="nav__item">
-            <a href="#skills" class="nav__link">Compétences</a>
+            <a href="#skills" class="nav__link"
+            style="color: white; 
+            transition: color 0.3s;" 
+            onmouseover="this.style.color='rgb(3, 223, 183)'" 
+            onmouseout="this.style.color='white'">Compétences</a>
           </li>
           <li class="nav__item">
-            <a href="#portfolio" class="nav__link">Portfolio</a>
+            <a href="#portfolio" class="nav__link"
+            style="color: white; 
+            transition: color 0.3s;" 
+            onmouseover="this.style.color='rgb(3, 223, 183)'" 
+            onmouseout="this.style.color='white'">Portfolio</a>
           </li>
           <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
+            <a href="#contact" class="nav__link"
+            style="color: white; 
+            transition: color 0.3s;" 
+            onmouseover="this.style.color='rgb(3, 223, 183)'" 
+            onmouseout="this.style.color='white'">Contact</a>
           </li>
         </ul>
       </div>
@@ -179,7 +200,7 @@
         <div style="filter: drop-shadow(0 4px 8px white);transform: translateZ(10px); border-radius: 20px; margin-bottom: 20px;"
           class="portfolio__img">
           <img style="height: 200px; width: 100%;" src="assets/img/back.webp" alt="" />
-          <div style="text-align: center; background-color: #2A3B47;">Application mobile de petites annonces BACK END Laravel</div>
+          <div style="text-align: center; background-color: #010101d3;">Application mobile de petites annonces BACK END Laravel</div>
           <div class="portfolio__link">
             <a style="color: rgb(3, 223, 183);" href="https://github.com/olivier063/serveur.git" target="_blank"
               class="portfolio__link-name">Cliquez ICI</a>
@@ -190,7 +211,7 @@
         <div style="filter: drop-shadow(0 4px 8px white);transform: translateZ(10px); border-radius: 20px; margin-bottom: 20px"
           class="portfolio__img">
           <img style="height: 200px; width: 100%;" src="assets/img/front.webp" alt="" />
-          <div style="text-align: center; background-color: #2A3B47; ">Application mobile de petites annonces FRONT END React Native</div>
+          <div style="text-align: center; background-color: #010101d3; ">Application mobile de petites annonces FRONT END React Native</div>
           <div class="portfolio__link">
             <a style="color: rgb(3, 223, 183);" href="https://github.com/olivier063/AnnonceReact.git" target="_blank"
               class="portfolio__link-name">Cliquez ICI</a>
@@ -201,7 +222,7 @@
         <div style="filter: drop-shadow(0 4px 8px white);transform: translateZ(10px); border-radius: 20px; margin-bottom: 20px"
           class="portfolio__img">
           <img style="height: 200px; width: 100%;" src="assets/img/course2.jpeg" alt="" />
-          <div style="text-align: center; background-color: #2A3B47;">Application de course à pied type strava React native</div>
+          <div style="text-align: center; background-color: #010101d3;">Application de course à pied type strava React native</div>
           <div class="portfolio__link">
             <a style="color: rgb(3, 223, 183);" href="https://github.com/olivier063/zapMoove1209.git"
               class="portfolio__link-name">Cliquez ICI</a>
@@ -212,7 +233,7 @@
         <div style="filter: drop-shadow(0 4px 8px white);transform: translateZ(10px); border-radius: 20px; margin-bottom: 20px"
           class="portfolio__img">
           <img style="height: 200px; width: 100%;" src="assets/img/under.png" alt="" />
-          <div style="text-align: center; background-color: #2A3B47">Développement Back-end en Nodejs et Typescript</div>
+          <div style="text-align: center; background-color: #010101d3">Développement Back-end en Nodejs et Typescript</div>
           <div class="portfolio__link">
             <!-- <a href="" class="portfolio__link-name"
                 >Oups, en construction!</a
@@ -253,13 +274,23 @@
       <div class="contact__container bd-grid">
         <div class="contact__info">
           <h3 class="contact__subtitle1">EMAIL</h3>
-          <span class="contact__text1">oliviercortes@live.fr</span>
+          <span class="contact__text1" 
+          style="transition: transform 0.3s; display: inline-block;" 
+          onmouseover="this.style.transform='scale(1.5)'" 
+          onmouseout="this.style.transform='scale(1)'">oliviercortes@live.fr</span>
+
 
           <h3 class="contact__subtitle2">TELEPHONE</h3>
-          <span class="contact__text2">06 28 45 26 14</span>
+          <span class="contact__text2"
+          style="transition: transform 0.3s; display: inline-block;" 
+          onmouseover="this.style.transform='scale(1.5)'" 
+          onmouseout="this.style.transform='scale(1)'">06 28 45 26 14</span>
 
           <h3 class="contact__subtitle3">ADRESSE</h3>
-          <span class="contact__text3">23 Bis Montée d'Abray <br />06300 NICE</span>
+          <span class="contact__text3"
+          style="transition: transform 0.3s; display: inline-block;" 
+          onmouseover="this.style.transform='scale(1.5)'" 
+          onmouseout="this.style.transform='scale(1)'">23 Bis Montée d'Abray <br />06300 NICE</span>
         </div>
 
         <!-- <form action="" class="contact__form">

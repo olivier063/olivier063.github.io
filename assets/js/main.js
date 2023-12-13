@@ -76,5 +76,3 @@ sr.reveal('.contact__input', {delay: 400})
 sr.reveal('.contact__button', {delay: 600})
 
 
-
-
