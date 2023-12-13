@@ -187,7 +187,7 @@ img{
     position: relative;
     background-color: var(--first-color);
     overflow: hidden;
-    height: 300px;
+    height: 200px;
 }
 .home__container{
     /* height: calc(100vh - var(--header-height)); */
@@ -246,7 +246,7 @@ img{
 .about__container{
     justify-items: center;
     text-align: center;
-    height: 650px;
+    height: 750px;
 }
 /* .about__img{
     
@@ -279,13 +279,14 @@ img{
 }
 
 /* Ajoutez ce code dans votre section style ou dans votre fichier CSS externe */
-.cv-button {
+.about-cv-button {
     /* display: inline-block; */
     padding: 10px 20px;
+    font-weight: bold;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
-    background-color: #0077b6; /* Couleur de fond du bouton */
+    background-color:rgb(3, 223, 183); /* Couleur de fond du bouton */
     color: #fff; /* Couleur du texte du bouton */
     border-radius: 5px;
     transition: background-color 0.3s ease;
@@ -337,9 +338,9 @@ img{
     position: relative;
     overflow: hidden;
 }
-.portfolio__img img{
+/* .portfolio__img img{
     border-radius: .5rem;
-}
+} */
 .portfolio__link{
     position: absolute;
     bottom: -100%;
@@ -431,7 +432,7 @@ img{
 /* For small devices */
 @media screen and (max-width: 768px) {
     .home {
-        height: 290px; /* Ajustez cette valeur en fonction de vos besoins pour les petits écrans */
+        height: 200px; /* Ajustez cette valeur en fonction de vos besoins pour les petits écrans */
     }
 }
 
