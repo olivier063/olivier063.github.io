@@ -264,6 +264,7 @@ img{
 .about__text{
     /* margin-top: -15%;  */
     margin-bottom: var(--mb-4);
+    text-align: justify;
 }
 .about__profession{
     display: block;
